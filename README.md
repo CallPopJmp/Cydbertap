@@ -56,7 +56,7 @@ Image Build Process on windows PC:
 Image Build Process on Linux PC:
 ----------------------------------
 
-1.  mount micros SD card or use lsblk to determine if already mounted (Mine was sdb) change following "dd" comand to reflect img and card
+1.  mount micros SD card or use lsblk to determine if already mounted (Mine was sdb) change following "dd" command to reflect img and card
 2.  sudo dd if=2016-09-23-raspbian-jessie-lite.img of=/dev/sdb1
 3.  Eject safely and place in pi zero.
 
