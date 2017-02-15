@@ -42,7 +42,7 @@ Software:
 ---------
 
 -   Raspbian Jessie lite : <https://www.raspberrypi.org/downloads/raspbian/>
--   *Download cydbertap files from github: *<https://github.com/cydber-seth/cydbertap>* *
+-   *Download cydbertap files from github for reference: *<https://github.com/CydberTAP/Cydbertap>* *
 -   WINSCP (<https://winscp.net/eng/download.php>)
 -   Putty (<http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html>)
 -   Win32disimage (<https://sourceforge.net/projects/win32diskimager/files/latest/download>)
