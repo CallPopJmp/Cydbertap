@@ -179,6 +179,8 @@ Install process on the Pi
 
 1.  chmod 755 /home/pi/cydbertap/capture-packets.sh
 
+1.  chown pi:pi /home/pi/cydbertap/capture-packets.sh
+
 1.  created file /home/pi/cydbertap/pi\_startup.sh
 
             #!/bin/sh
@@ -224,6 +226,8 @@ Install process on the Pi
 
             #/usr/bin/screen -dmS node /usr/bin/nodejs/home/pi/poisontap/pi_poisontap.js
 
-1.  chmod 755/home/pi/cydbertap/pi_startup.sh
+1.  chmod 755 /home/pi/cydbertap/pi_startup.sh
+
+1.  chown pi:pi /home/pi/cydbertap/pi_startup.sh
 
 1.  Finally, open up the /boot/cmdline.txt. Be careful with this file, it is very picky with its formatting! Each parameter is separated  by a single space (it does not use newlines). Insert modules-load=dwc2,g_ether after rootwait.
