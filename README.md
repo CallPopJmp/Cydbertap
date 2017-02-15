@@ -161,6 +161,10 @@ Install process on the Pi
 	
                 }
 
+1.  mkdir /home/pi/cydbertap
+
+1.  mkdir /home/pi/cydbertap/pcaps
+
 1.  created file /home/pi/cydbertap/capture-packets.sh
 
             #!/bin/bash
