@@ -4,14 +4,13 @@ Forensic Tool based on portable computing
 ----------------------
 
 The CydberTap is a small cheap solution for forensic analysis based on Cider Drinking, Cyber Security and finding something to do with my pi zero.
-
-The Goal is to create a small cheap forensic device for network defenders whether hobiests or proffesional.
+The Goal is to create a small cheap forensic device for network defenders whether hobbyists or professional.
 
 Aims (Currently completed Aim 1 :-)
 
-1: - Create an image for a pi zero that when plugged into a powered on (Windows) computer is recognised as a USB eternet device and automatically collects 30 minutes of inetwork traffic attempting to access the internernet.
+1: - Create an image for a pi zero that when plugged into a powered on (Windows) computer is recognised as a USB Ethernet device and automatically collects 30 minutes of network traffic attempting to access the internet.
 
-2: - Automate removal of legitmate network traffic so only interesting stuff has to be looked at.
+2: - Automate removal of legitimate network traffic so only interesting stuff has to be looked at.
 
 3: - Automatically perform a Memory capture without relying on compromising the computer.
 
@@ -19,7 +18,8 @@ Aims (Currently completed Aim 1 :-)
 
 5: - Automatically perform capture of files and/or directories.
 
-6: - Automatically perform Full disk capture (Probably wont do this ;-)
+6: - Automatically perform Full disk capture (Probably won’t do this ;-)
+
 
 References and thanks:
 ----------------------
@@ -226,4 +226,4 @@ Install process on the Pi
 
 1.  chmod 755/home/pi/cydbertap/pi_startup.sh
 
-1.  Finally, open up the /boot/cmdline.txt. Be careful with this file, it is very picky with its formatting! Each parameter is seperated by a single space (it does not use newlines). Insert modules-load=dwc2,g_ether after rootwait.
+1.  Finally, open up the /boot/cmdline.txt. Be careful with this file, it is very picky with its formatting! Each parameter is separated  by a single space (it does not use newlines). Insert modules-load=dwc2,g_ether after rootwait.
