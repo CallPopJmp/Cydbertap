@@ -1,8 +1,8 @@
 #!/bin/bash
-#currentDate="$(/bin/date +'%Y%m%d')"
+currentDate="$(/bin/date +'%Y%m%d')"
 
 ##Debug Date
-currentDate="20170206"
+#currentDate="20170206"
 
 ##Environment variables:
 pcapPath="/pcaps/"
