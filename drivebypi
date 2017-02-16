@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/bin/sh /usr/local/bin/otg.sh
+/bin/sh /usr/local/bin/capture-packets.sh &
+
